@@ -1,0 +1,5 @@
+Bangalicon PRO Manifest
+Generated: 2026-08-11T13:02:08.419Z
+CDN CSS: http://localhost:5000/cdn/pro/bangalicon-pro.css
+Total icons: 0
+

@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M480 880q-108 0-200-54A404 404 0 0 1 134 680 388 388 0 0 1 80 480q0-108 54-200A393.2 393.2 0 0 1 280 134Q372 80 480 80t200 54A384 384 0 0 1 826 280Q880 372 880 480t-54 200A393.2 393.2 0 0 1 680 826Q588 880 480 880m-23-400L548 388q18-18 10-38a42 42 0 0 0-28-28q-21-7-38 10l-120 119q-13 13-13 29t13 29l120 119q18 18 38 11 21-8 28-29t-10-38z"/>`;
+
+const ArrowKeyLeftCircleSolid = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ArrowKeyLeftCircleSolid;

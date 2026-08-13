@@ -1,0 +1,71 @@
+import { useState, useRef, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const sizes = [24, 32, 48, 64];
+
+export default function SizeDropdown({ size, setSize }: any) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  // OUTSIDE CLICK
+  useEffect(() => {
+    const handleClick = (e: any) => {
+      if (ref.current && !ref.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+
+      {/* TRIGGER */}
+      <button
+        onClick={() => setOpen(!open)}
+        className="bg-[#F2F2F2] px-3 py-1.5 cursor-pointer font-medium text-[#313131] rounded-full text-sm flex items-center gap-2 hover:bg-[#EAEAEA] transition"
+      >
+        {size}px
+        <span className={`transition ${open ? "rotate-180" : "mt-1"}`}>
+            <svg width="11" height="7" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.53403 0.216001C9.73403 0.0160013 9.94516 -0.0451124 10.1674 0.0326676C10.4007 0.110448 10.5562 0.271554 10.634 0.516001C10.7118 0.749334 10.6562 0.960448 10.4674 1.14933L5.80069 5.83267C5.65623 5.97713 5.5007 6.04933 5.33403 6.04933C5.17849 6.04933 5.0229 5.97713 4.86736 5.83267L0.200695 1.14933C0.0118084 0.960448 -0.0437516 0.749334 0.0340284 0.516001C0.111808 0.282668 0.261808 0.127115 0.484028 0.0493346C0.717362 -0.0395521 0.934028 0.0160013 1.13403 0.216001L5.33403 4.39933L9.53403 0.216001Z" fill="#828282"/>
+</svg>
+
+        </span>
+      </button>
+
+      {/* DROPDOWN */}
+      <AnimatePresence>
+        {open && (
+          <motion.div
+            initial={{ opacity: 0, y: -5, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -5, scale: 0.95 }}
+            transition={{ duration: 0.2 }}
+            className="absolute mt-2 w-full bg-white rounded-2xl shadow-md border border-[#E6E6E6]  p-1 z-50"
+          >
+            {sizes.map((s) => (
+              <button
+                key={s}
+                onClick={() => {
+                  setSize(s);
+                  setOpen(false);
+                }}
+                className={`w-full text-left px-3 py-1.5 rounded-xl cursor-pointer  text-sm transition
+                ${
+                  size === s
+                    ? "bg-black text-white"
+                    : "hover:bg-gray-100"
+                }`}
+              >
+                {s}px
+              </button>
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+    </div>
+  );
+}

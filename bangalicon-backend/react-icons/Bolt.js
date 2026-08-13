@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M512 75q14-17 36-16 22 0 37 16 15 15 12 38l-32 287H744q20 0 33 13t14 32q1 18-11 33l-373 409a44.400000000000006 44.400000000000006 0 0 1-36 17q-21-1-36-16-14-16-12-39l32-249h-180q-19 0-32-12a50.4 50.4 0 0 1-15-31q-2-18 10-34zM200 574q-5 7.039999999999999-14-6a120 120 0 0 1-14-31Q168 520 175 520H396q21 0 33 15 13 14 10 34l-36 290q1.04-4.96-3-12a80 80 0 0 0-10-18 148 148 0 0 0-17-24l332-364q9 11 16 20 8 9 13 13l5 5A16 16 0 0 0 744 480h-219q-21 0-34-14-12-14-10-35l36-328q1-6 17-2 16 3 29 12 14 8 10 13z"/>`;
+
+const Bolt = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default Bolt;

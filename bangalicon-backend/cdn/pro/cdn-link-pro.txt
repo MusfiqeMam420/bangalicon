@@ -1,0 +1,4 @@
+<!-- Bangalicon CDN -->
+<link rel="stylesheet" href="http://localhost:5000/cdn/pro/bangalicon-pro.css">
+
+<i class="bgp bgp-diamond-star"></i>

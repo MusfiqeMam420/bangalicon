@@ -1,0 +1,116 @@
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+⨯ ./components/AdminLoginForm.tsx:88:9
+Expected '</', got ':'
+  [90m86 |[0m       {hint ? (
+  [90m87 |[0m        
+[31m[1m>[0m [90m88 |[0m       ) : [36mnull[0m}
+  [90m   |[0m         [31m[1m^[0m
+  [90m89 |[0m
+  [90m90 |[0m       {error ? <p className=[32m"text-[13px] font-medium text-[#c9151b]"[0m>{error}</p> : [36mnull[0m}
+  [90m91 |[0m
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/AdminLoginForm.tsx
+    ./app/login/page.tsx
+
+
+[browser] ./components/AdminLoginForm.tsx:88:9
+Expected '</', got ':'
+  86 |       {hint ? (
+  87 |        
+> 88 |       ) : null}
+     |         ^
+  89 |
+  90 |       {error ? <p className="text-[13px] font-medium text-[#c9151b]">{error}</p> : null}
+  91 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/AdminLoginForm.tsx
+    ./app/login/page.tsx 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./components/AdminLoginForm.tsx:88:9
+Expected '</', got ':'
+  86 |       {hint ? (
+  87 |        
+> 88 |       ) : null}
+     |         ^
+  89 |
+  90 |       {error ? <p className="text-[13px] font-medium text-[#c9151b]">{error}</p> : null}
+  91 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/AdminLoginForm.tsx
+    ./app/login/page.tsx 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./components/AdminLoginForm.tsx:88:9
+Expected '</', got ':'
+  86 |       {hint ? (
+  87 |        
+> 88 |       ) : null}
+     |         ^
+  89 |
+  90 |       {error ? <p className="text-[13px] font-medium text-[#c9151b]">{error}</p> : null}
+  91 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/AdminLoginForm.tsx
+    ./app/login/page.tsx 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./components/AdminLoginForm.tsx:88:9
+Expected '</', got ':'
+  86 |       {hint ? (
+  87 |        
+> 88 |       ) : null}
+     |         ^
+  89 |
+  90 |       {error ? <p className="text-[13px] font-medium text-[#c9151b]">{error}</p> : null}
+  91 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/AdminLoginForm.tsx
+    ./app/login/page.tsx 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./components/AdminLoginForm.tsx:88:9
+Expected '</', got ':'
+  86 |       {hint ? (
+  87 |        
+> 88 |       ) : null}
+     |         ^
+  89 |
+  90 |       {error ? <p className="text-[13px] font-medium text-[#c9151b]">{error}</p> : null}
+  91 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/AdminLoginForm.tsx
+    ./app/login/page.tsx 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-admin/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)

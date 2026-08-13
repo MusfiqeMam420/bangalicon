@@ -1,0 +1,52 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\svelte-icons\.npmrc
+5 silly config load:file:C:\Users\Mizuki Sama\.npmrc
+6 silly config load:file:C:\Users\Mizuki Sama\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm publish
+8 verbose argv "publish" "--access" "public" "--registry" "https://registry.npmjs.org"
+9 verbose logfile logs-max:10 dir:D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\.npm-cache\_logs\2026-08-05T19_23_58_820Z-
+10 verbose logfile D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\.npm-cache\_logs\2026-08-05T19_23_58_820Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 verbose publish [ '.' ]
+13 silly logfile done cleaning log files
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 notice
+16 notice package: @bangalicon/svelte@1.0.6
+17 notice Tarball Contents
+18 notice 1.3kB AddCircleSolid.svelte
+18 notice 1.2kB CarBolt.svelte
+18 notice 873B CheckCircle.svelte
+18 notice 650B CheckCircleSoliFd.svelte
+18 notice 513B FolderMinus.svelte
+18 notice 1.1kB README.md
+18 notice 2.2kB icons.json
+18 notice 325B index.js
+18 notice 544B package.json
+19 notice Tarball Details
+20 notice name: @bangalicon/svelte
+21 notice version: 1.0.6
+22 notice filename: bangalicon-svelte-1.0.6.tgz
+23 notice package size: 2.6 kB
+24 notice unpacked size: 8.7 kB
+25 notice shasum: 92cb1579265aa93623852428fd7968b4fbf2f14a
+26 notice integrity: sha512-V1C2RGSwcN+30[...]nAfk7Vn/lpDNg==
+27 notice total files: 9
+28 notice
+29 verbose stack Error: This command requires you to be logged in to https://registry.npmjs.org/
+29 verbose stack     at #publish (C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\lib\commands\publish.js:161:29)
+29 verbose stack     at async Publish.exec (C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\lib\commands\publish.js:47:5)
+29 verbose stack     at async Npm.exec (C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\lib\npm.js:209:9)
+29 verbose stack     at async module.exports (C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:67:5)
+30 error code ENEEDAUTH
+31 error need auth This command requires you to be logged in to https://registry.npmjs.org/
+32 error need auth You need to authorize this machine using `npm adduser`
+33 verbose cwd D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\svelte-icons
+34 verbose os Windows_NT 10.0.26200
+35 verbose node v24.11.1
+36 verbose npm  v11.11.0
+37 verbose exit 1
+38 verbose code 1
+39 error A complete log of this run can be found in: D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\.npm-cache\_logs\2026-08-05T19_23_58_820Z-debug-0.log

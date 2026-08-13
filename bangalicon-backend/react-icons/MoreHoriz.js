@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M560 480a80 80 0 0 1-23 57Q514 560 480 560a80 80 0 0 1-57-23A80 80 0 0 1 400 480q0-34 23-57A80 80 0 0 1 480 400q34 0 57 23T560 480m-280 0a80 80 0 0 1-23 57Q234 560 200 560a80 80 0 0 1-57-23A80 80 0 0 1 120 480q0-34 23-57A80 80 0 0 1 200 400q34 0 57 23T280 480m560 0a80 80 0 0 1-23 57Q794.04 560 760 560a80 80 0 0 1-57-23A80 80 0 0 1 680 480q0-34 23-57A80 80 0 0 1 760 400q34 0 57 23T840 480"/>`;
+
+const MoreHoriz = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default MoreHoriz;

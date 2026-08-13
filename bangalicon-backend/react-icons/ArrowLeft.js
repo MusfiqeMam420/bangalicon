@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M468 732q17 17 10 38t-28 29q-20 7-38-11l-280-279Q119 496 119 480t13-29l280-279q17-17 38-10t28 28q8 20-10 38L217 480zM160 520v-80h640q25 0 34 20 10 20 0 40-9 20-34 20z"/>`;
+
+const ArrowLeft = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ArrowLeft;

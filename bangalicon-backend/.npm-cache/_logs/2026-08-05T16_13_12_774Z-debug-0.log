@@ -1,0 +1,50 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.0
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Mizuki Sama\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\vue-icons\.npmrc
+5 silly config load:file:C:\Users\Mizuki Sama\.npmrc
+6 silly config load:file:C:\Users\Mizuki Sama\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm publish
+8 verbose argv "publish" "--access" "public" "--registry" "https://registry.npmjs.org"
+9 verbose logfile logs-max:10 dir:D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\.npm-cache\_logs\2026-08-05T16_13_12_774Z-
+10 verbose logfile D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\.npm-cache\_logs\2026-08-05T16_13_12_774Z-debug-0.log
+11 warn Unknown project config "always-auth". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+12 silly logfile done cleaning log files
+13 verbose publish [ '.' ]
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 notice
+16 notice package: @bangalicon/vue@1.0.2
+17 notice Tarball Contents
+18 notice 1.4kB AddCircleSolid.vue
+18 notice 699B Bucket.vue
+18 notice 1.2kB CarBolt.vue
+18 notice 745B CartCheck.vue
+18 notice 946B CheckCircle.vue
+18 notice 723B CheckCircleSoliFd.vue
+18 notice 687B Couch.vue
+18 notice 876B DoorOpenAlt.vue
+18 notice 586B FolderMinus.vue
+18 notice 1.1kB README.md
+18 notice 3.8kB icons.json
+18 notice 524B index.js
+18 notice 529B package.json
+19 notice Tarball Details
+20 notice name: @bangalicon/vue
+21 notice version: 1.0.2
+22 notice filename: bangalicon-vue-1.0.2.tgz
+23 notice package size: 3.5 kB
+24 notice unpacked size: 13.9 kB
+25 notice shasum: 1dec7f0185636fc965d28d6b89c79d1ff1db9af5
+26 notice integrity: sha512-ma+TshmqeOvFe[...]ut7MDgKddhoOw==
+27 notice total files: 13
+28 notice
+29 http fetch GET 200 https://registry.npmjs.org/@bangalicon%2fvue 1921ms (cache miss)
+30 notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+31 http fetch PUT 200 https://registry.npmjs.org/@bangalicon%2fvue 2557ms
+32 verbose cwd D:\Web Project\Bangalicon\ban-5.0.0\bangalicon-backend\vue-icons
+33 verbose os Windows_NT 10.0.26200
+34 verbose node v24.11.1
+35 verbose npm  v11.11.0
+36 verbose exit 0
+37 info ok

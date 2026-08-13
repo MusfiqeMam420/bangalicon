@@ -1,0 +1,16 @@
+
+> bangalicon-frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.101:3000
+- Environments: .env.local
+✓ Ready in 626ms
+
+○ Compiling /reset-password ...
+ GET /reset-password?token=f162dc21c11830cd0b5e92449d6736e6fa5c1e23fffe64ac722736717268cd27 200 in 4.9s (next.js: 4.5s, application-code: 429ms)
+ GET /admin 404 in 2.9s (next.js: 2.8s, application-code: 122ms)
+ GET /reset-password?token=ddfe1dc0599692cfe3d7663347607cc406462a31d92b30d883c8919b0479703e 200 in 80ms (next.js: 11ms, application-code: 69ms)
+ GET / 200 in 990ms (next.js: 881ms, application-code: 109ms)
+[?25h

@@ -1,0 +1,25 @@
+<script setup>
+defineProps({
+  size: {
+    type: [Number, String],
+    default: 24,
+  },
+  color: {
+    type: String,
+    default: "currentColor",
+  },
+});
+</script>
+
+<template>
+  <svg
+    :width="size"
+    :height="size"
+    viewBox="0 0 1000 1000"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    :style="{ color }"
+  >
+    <path d="M303 201a132 132 0 0 1 45-30A130 130 0 0 1 401 160h317q46 0 83 21t58 58T880 322v316q0 46-21 83t-58 58T718 800h-317q-28 0-53-10a148 148 0 0 1-45-31l-164-164a169.60000000000002 169.60000000000002 0 0 1-44-73 160 160 0 0 1 0-83q12-42 44-74zM560 536l92 92q18 18 38 11 21-8 28-29t-10-38L616 480l92-92q18-18 10-38a42 42 0 0 0-28-28q-21-7-38 10L560 424l-92-92q-17-17-39-10-21 7-28 28-7 20 11 38l92 92-92 92q-18 18-11 39 8 20 29 27t38-10z"/>
+  </svg>
+</template>

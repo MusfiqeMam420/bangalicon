@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M655 130a175.6 175.6 0 0 1 175 175v350a175.6 175.6 0 0 1-175 175h-350a175.6 175.6 0 0 1-175-175v-350A175.6 175.6 0 0 1 305 130z m0-70h-350C170.24 60 60 170.24 60 305v350c0 134.76000000000002 110.24 245 245 245h350c134.76000000000002 0 245-110.24 245-245v-350c0-134.76000000000002-110.24-245-245-245"/><path d="M707.48 305a52.480000000000004 52.480000000000004 0 1 1 0-104.96000000000001 52.480000000000004 52.480000000000004 0 0 1 0 104.96000000000001M480 340a140 140 0 1 1 0 280 140 140 0 0 1 0-280m0-70a210 210 0 1 0 0 420 210 210 0 0 0 0-420"/>`;
+
+const InstagramBrand = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default InstagramBrand;

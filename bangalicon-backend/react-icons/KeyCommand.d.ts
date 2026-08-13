@@ -1,0 +1,10 @@
+import * as React from "react";
+
+declare const KeyCommand: React.FC<
+  React.SVGProps<SVGSVGElement> & {
+    size?: number | string;
+    color?: string;
+  }
+>;
+
+export default KeyCommand;

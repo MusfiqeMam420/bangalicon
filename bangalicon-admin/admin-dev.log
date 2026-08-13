@@ -1,0 +1,58 @@
+
+> bangalicon-admin@0.1.0 dev
+> next dev --port 3001
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.0.102:3001
+- Environments: .env.local
+✓ Ready in 538ms
+
+ GET /admin 307 in 604ms (next.js: 310ms, application-code: 294ms)
+ GET /login 200 in 129ms (next.js: 53ms, application-code: 75ms)
+ GET /admin/seo 307 in 1477ms (next.js: 1395ms, application-code: 82ms)
+ GET /login 200 in 69ms (next.js: 9ms, application-code: 61ms)
+ GET /admin 200 in 103ms (next.js: 17ms, application-code: 85ms)
+ GET /admin/seo 200 in 35ms (next.js: 8ms, application-code: 28ms)
+✓ Compiled in 1049ms
+ GET /admin/seo 404 in 1667ms (next.js: 829ms, application-code: 838ms)
+ GET /admin/seo 404 in 193ms (next.js: 63ms, application-code: 130ms)
+ GET /admin/seo 404 in 189ms (next.js: 120ms, application-code: 69ms)
+ GET /admin/seo 404 in 440ms (next.js: 89ms, application-code: 351ms)
+ GET /admin/seo 404 in 516ms (next.js: 126ms, application-code: 390ms)
+✓ Compiled in 376ms
+ GET /admin/seo 200 in 834ms (next.js: 199ms, application-code: 635ms)
+ GET /admin/seo 200 in 297ms (next.js: 96ms, application-code: 201ms)
+ GET /admin/seo 200 in 323ms (next.js: 42ms, application-code: 281ms)
+ GET /admin/seo 200 in 326ms (next.js: 10ms, application-code: 317ms)
+ GET /admin/seo 200 in 326ms (next.js: 73ms, application-code: 253ms)
+ GET /admin/seo 200 in 328ms (next.js: 107ms, application-code: 221ms)
+ GET /admin/seo 200 in 195ms (next.js: 63ms, application-code: 131ms)
+ GET /admin/seo 200 in 196ms (next.js: 14ms, application-code: 182ms)
+ GET /admin/seo 200 in 192ms (next.js: 150ms, application-code: 42ms)
+ GET /admin/seo 200 in 199ms (next.js: 119ms, application-code: 80ms)
+ GET /admin/seo 200 in 421ms (next.js: 11ms, application-code: 410ms)
+ GET /admin/seo 200 in 418ms (next.js: 19ms, application-code: 399ms)
+ GET /admin/seo 200 in 95ms (next.js: 12ms, application-code: 83ms)
+ GET /admin/seo 404 in 238ms (next.js: 79ms, application-code: 159ms)
+ GET /admin/seo 404 in 411ms (next.js: 55ms, application-code: 356ms)
+ GET /admin/seo 404 in 235ms (next.js: 79ms, application-code: 156ms)
+ GET /admin/seo 404 in 238ms (next.js: 48ms, application-code: 190ms)
+ GET /admin/seo 404 in 244ms (next.js: 110ms, application-code: 134ms)
+ GET /admin/seo 404 in 220ms (next.js: 148ms, application-code: 72ms)
+ GET /admin/seo 404 in 387ms (next.js: 22ms, application-code: 366ms)
+✓ Compiled in 330ms
+ GET /admin/seo 200 in 814ms (next.js: 387ms, application-code: 426ms)
+ GET /admin/seo 200 in 329ms (next.js: 81ms, application-code: 248ms)
+ GET /admin/seo 200 in 308ms (next.js: 41ms, application-code: 266ms)
+ GET /admin/seo 200 in 308ms (next.js: 74ms, application-code: 234ms)
+ GET /admin/seo 200 in 311ms (next.js: 9ms, application-code: 303ms)
+ GET /admin/seo 200 in 310ms (next.js: 115ms, application-code: 196ms)
+ GET /admin/seo 200 in 181ms (next.js: 11ms, application-code: 170ms)
+ GET /admin/seo 200 in 192ms (next.js: 107ms, application-code: 85ms)
+ GET /admin/seo 200 in 197ms (next.js: 41ms, application-code: 156ms)
+ GET /admin/seo 200 in 197ms (next.js: 71ms, application-code: 125ms)
+ GET /admin/seo 200 in 385ms (next.js: 9ms, application-code: 375ms)
+ GET /admin/seo 200 in 336ms (next.js: 7ms, application-code: 329ms)
+ GET /admin/seo 200 in 110ms (next.js: 15ms, application-code: 95ms)
+ GET /admin 200 in 58ms (next.js: 26ms, application-code: 32ms)

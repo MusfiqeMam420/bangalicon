@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-11T13:02:07.246Z",
+  "bundles": {
+    "free": {
+      "cssUrl": "http://localhost:5000/cdn/free/bangalicon-free.css",
+      "manifestUrl": "http://localhost:5000/cdn/free/bangalicon-free.txt",
+      "jsonUrl": "http://localhost:5000/cdn/free/bangalicon-free.json",
+      "snippetUrl": "http://localhost:5000/cdn/free/cdn-link-free.txt",
+      "iconsCount": 520
+    },
+    "pro": {
+      "cssUrl": "http://localhost:5000/cdn/pro/bangalicon-pro.css",
+      "manifestUrl": "http://localhost:5000/cdn/pro/bangalicon-pro.txt",
+      "jsonUrl": "http://localhost:5000/cdn/pro/bangalicon-pro.json",
+      "snippetUrl": "http://localhost:5000/cdn/pro/cdn-link-pro.txt",
+      "iconsCount": 0
+    }
+  }
+}

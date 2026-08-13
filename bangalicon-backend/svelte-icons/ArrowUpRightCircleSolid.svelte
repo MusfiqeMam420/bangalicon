@@ -1,0 +1,17 @@
+<script>
+  /** @type {number | string} */
+  export let size = 24;
+  /** @type {string} */
+  export let color = "currentColor";
+</script>
+
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 1000 1000"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  style:color={color}
+>
+  <path d="M480 880q-108 0-200-54A404 404 0 0 1 134 680 388 388 0 0 1 80 480q0-108 54-200A393.2 393.2 0 0 1 280 134Q372 80 480 80t200 54A384 384 0 0 1 826 280Q880 372 880 480t-54 200A393.2 393.2 0 0 1 680 826Q588 880 480 880m-148-308q-18 18-11 39 8 20 29 27t38-10l172-172V560q0 25 20 35 20 9 40 0 20-10 20-35V361q0-18-12-29-11-12-29-12H400q-25 0-35 20-9 20 0 40 10 20 35 20h104z"/>
+</svg>

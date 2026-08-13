@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M217 840q-25 25.04-58 24a84 84 0 0 1-56-23Q80 818 80 783V280q0-43 21-80A158.8 158.8 0 0 1 160 142 154 154 0 0 1 240 120h480q43 0 80 22 37 21 58 58 22 37 22 80v320q0 43-22 80A158.8 158.8 0 0 1 800 739 160 160 0 0 1 720 760H297zM360 360q0 25 20 35t40 1q20-10 20-35a12 12 0 0 1 4-9 36 36 0 0 1 14-8q9-4 22-4 19 0 29 6 10 5 10 16 0 6-13 12-15 6-28 13l-11 7q-12 10-20 22A44 44 0 0 0 440 440q0 17 11 29 12 11 29 11a33.199999999999996 33.199999999999996 0 0 0 18-5q8-5 17-15 6-6 13-10 7.039999999999999-5 15-8 14-8 26-20Q600 396 600 360q0-45-35-72-34-28-85-28-38 0-66 16-27 15-41 38A92 92 0 0 0 360 360m180 200q0-25-18-42-16.96-18-42-18-25 0-43 18-17 18-17 42 0 25 17 43 18 17 43 17t42-18q18-18 18-42"/>`;
+
+const Chat2QuestionSolid = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default Chat2QuestionSolid;

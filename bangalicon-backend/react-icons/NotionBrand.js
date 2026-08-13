@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M244 236c23 18 33 18 76 14l414-24c8 0 0-9-2-11L663 166c-9-8-19-14-30-16-11-4-23-4-35-4l-400 30c-14 2-17 9-12 15l58 46zM120 644V187c0-25 12-48 45-51l416-30c51-5 65-1 97 22l132 94c22 16 30 20 30 38v514c0 32-12 51-53 53l-483 30c-31 1-45-3-61-23l-98-128C127 682 120 665 120 644m149 125c0 23 12 33 37 30l456-25c25-2 28-18 28-37V303c0-19-7-29-23-27l-474 27c-18 2-24 11-24 30z m80-371c1-4 2-7 5-11 3-2 5-5 9-7a20 20 0 0 1 11-3l108-8 149 229V396l-38-5a14 14 0 0 1 1-11c0-3 2-6 4-9 3-2 5-5 8-7 4-1 8-2 11-2l100-6v1c3 12 0 25-13 27l-22 4v322c-19 11-36 16-51 16-23 0-29-7-46-29l-143-226v219l44 10s0 26-36 26l-100 6c-4-6 0-21 9-23l27-8V414l-36-4c-2-4-2-8-1-12"/>`;
+
+const NotionBrand = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default NotionBrand;

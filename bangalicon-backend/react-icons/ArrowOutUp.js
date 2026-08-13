@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M840 680q0 43-22 80A158.8 158.8 0 0 1 760 819 160 160 0 0 1 680 840H280a160 160 0 0 1-80-21A168 168 0 0 1 141 760 160 160 0 0 1 120 680v-40q0-25 20-34a42.400000000000006 42.400000000000006 0 0 1 40 0q20 9 20 34v40q0 37 21 59Q243 760 280 760h400q37 0 58-21 22-22 22-59v-40q0-19 12-29t28-10 28 10 12 29zM348 348q-17 17-39 10a42 42 0 0 1-28-27Q274 310 292 292l159-160q13-13 29-13t29 13l159 160q17 16.96 10 39-7 21-28 28-20 7-38-11L480 217zM440 160h80v480q0 25-20 35-20 9-40 0-20-10-20-35z"/>`;
+
+const ArrowOutUp = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ArrowOutUp;

@@ -1,0 +1,8 @@
+Bangalicon CDN Manifest
+Generated: 2026-08-01T15:03:52.818Z
+CDN CSS: https://cdn.bangalicon.com/bangalicon.css
+Total icons: 3
+
+bgs-add-circle-solid | solid | free | \e900 | https://cdn.bangalicon.com/icons/add-circle-solid.svg
+bg-cart-check | regular | free | \e901 | https://cdn.bangalicon.com/icons/cart-check.svg
+bg-folder-minus | regular | free | \e902 | https://cdn.bangalicon.com/icons/folder-minus.svg

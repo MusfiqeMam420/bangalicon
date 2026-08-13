@@ -1,0 +1,36 @@
+{
+  "name": "@bangalicon/react",
+  "version": "1.0.10",
+  "description": "React icon components generated from Bangalicon uploads.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "README.md",
+    "icons.json"
+  ],
+  "keywords": [
+    "icons",
+    "react",
+    "bangalicon",
+    "svg"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

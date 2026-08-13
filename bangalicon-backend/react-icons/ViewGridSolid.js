@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M601 440a80.8 80.8 0 0 1-58-23A80.8 80.8 0 0 1 520 359v-158q0-34 23-57 24-24 58-24h158q34 0 57 24 24 23 24 57v158q0 34-24 58-23 23-57 23z m-400 400a80.8 80.8 0 0 1-58-23A80.8 80.8 0 0 1 120 759v-158q0-34 23-57 24-24 58-24h158q34 0 57 24 24 23 24 57v158q0 34-24 58Q393 840 359 840z m0-400a80.8 80.8 0 0 1-58-23A80.8 80.8 0 0 1 120 359v-158q0-34 23-57 24-24 58-24h158q34 0 57 24 24 23 24 57v158q0 34-24 58Q393 440 359 440z m400 400a80.8 80.8 0 0 1-58-23 80.8 80.8 0 0 1-23-58v-158q0-34 23-57 24-24 58-24h158q34 0 57 24 24 23 24 57v158q0 34-24 58-23 23-57 23z"/>`;
+
+const ViewGridSolid = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ViewGridSolid;

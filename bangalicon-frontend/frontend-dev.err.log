@@ -1,0 +1,425 @@
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "/hero/react-icon.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] ./app/usage/page.tsx:213:23
+Expression expected
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/usage/page.tsx:213:24
+Unterminated regexp literal
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{</CodePanel>
+      |                        ^^^^^^^^^^^
+  214 |       </div>
+  215 |       
+  216 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/usage/page.tsx:213:23
+Expression expected
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/usage/page.tsx:213:24
+Unterminated regexp literal
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{</CodePanel>
+      |                        ^^^^^^^^^^^
+  214 |       </div>
+  215 |       
+  216 |
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 | {
+  digest: '249385976'
+}
+[browser] Uncaught ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:213:23)
+    at resolveErrorDev (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:1919:150)
+    at processFullStringRow (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2434:29)
+    at processFullBinaryRow (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2393:9)
+    at processBinaryChunk (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2502:221)
+    at progress (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2689:13)
+    at UsagePage (app\usage\page.tsx:512:11)
+  211 |           
+  212 |         </div>
+> 213 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  214 |       </div>
+  215 |       
+  216 |
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:214:23)
+  212 |         </div>
+  213 |         
+> 214 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  215 |       </div>
+  216 |       
+  217 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:214:23)
+  212 |         </div>
+  213 |         
+> 214 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  215 |       </div>
+  216 |       
+  217 | {
+  digest: '249385976'
+}
+⨯ ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:214:23)
+  212 |         </div>
+  213 |         
+> 214 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  215 |       </div>
+  216 |       
+  217 | {
+  digest: '249385976'
+}
+[browser] ./app/usage/page.tsx:215:8
+Unterminated regexp literal
+  213 |         {installCommands.map((item) => (
+  214 |           <CodePanel>{item.command}</CodePanel>
+> 215 |       </div>
+      |        ^^^^^
+  216 |       
+  217 |
+  218 |       <div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] Uncaught ReferenceError: item is not defined
+    at PackageBlock (app\usage\page.tsx:214:23)
+    at resolveErrorDev (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:1919:105)
+    at processFullStringRow (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2434:29)
+    at processFullBinaryRow (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2393:9)
+    at processBinaryChunk (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2502:221)
+    at progress (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2689:13)
+    at UsagePage (app\usage\page.tsx:513:11)
+  212 |         </div>
+  213 |         
+> 214 |           <CodePanel>{item.command}</CodePanel>
+      |                       ^
+  215 |       </div>
+  216 |       
+  217 |
+[browser] ./app/usage/page.tsx:215:8
+Unterminated regexp literal
+  213 |         {installCommands.map((item) => (
+  214 |           <CodePanel>{item.command}</CodePanel>
+> 215 |       </div>
+      |        ^^^^^
+  216 |       
+  217 |
+  218 |       <div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/usage/page.tsx:215:8
+Unterminated regexp literal
+  213 |         {installCommands.map((item) => (
+  214 |           <CodePanel>{item.command}</CodePanel>
+> 215 |       </div>
+      |        ^^^^^
+  216 |       
+  217 |
+  218 |       <div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+[browser] ./app/usage/page.tsx:216:8
+Unterminated regexp literal
+  214 |           <CodePanel>{item.command}</CodePanel>
+  215 |           
+> 216 |       </div>
+      |        ^^^^^
+  217 |       
+  218 |
+  219 |       <div>
+
+Parsing ecmascript source code failed 
+    at handleErrors (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+    at processMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13891:21)
+    at WebSocket.handleMessage (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52) (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13828:21)
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)
+[browser] Image with src "http://localhost:3000/logo/bangalicon-logo.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. (file://D:/Web Project/Bangalicon/ban-5.0.0/bangalicon-frontend/.next/dev/static/chunks/node_modules_next_dist_115brz8._.js:2431:13)

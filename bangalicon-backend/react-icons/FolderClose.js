@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M240 800a160 160 0 0 1-80-21A168 168 0 0 1 101 720 160 160 0 0 1 80 640V280q0-43 21-80A158.8 158.8 0 0 1 160 142 154 154 0 0 1 240 120h148q15 0 27 5t23 16L497 200H720q43 0 80 22 37 21 58 58 22 37 22 80v280q0 43-22 80A158.8 158.8 0 0 1 800 779 160 160 0 0 1 720 800z m480-80q37 0 58-21 22-22 22-59V360q0-37-22-58Q757 280 720 280h-228a68 68 0 0 1-27-5 76 76 0 0 1-22-16L383 200H240q-37 0-59 22Q160 243 160 280v360q0 37 21 59Q203 720 240 720z m-302-122q-17 17-38 10a45.199999999999996 45.199999999999996 0 0 1-29-27Q344 560 362 542l180-180q18-18 38-11 21 7 28 29 7 21-10 38z m-56-180q-17-17-10-38a42 42 0 0 1 27-28q21-8 39 10l180 180q17 17 10 38t-28 29q-20 7-38-11z"/>`;
+
+const FolderClose = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default FolderClose;

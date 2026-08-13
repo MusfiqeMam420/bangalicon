@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M178 205c0 57 29 108 73 137-44 30-73 80-73 138s29 108 73 138c-44 29-73 80-73 137C178 846 251 920 342 920c92 0 165-74 165-165v-152c30 26 68 42 111 42 91 0 164-74 164-165 0-58-29-108-73-138 44-29 73-80 73-137C782 114 709 40 618 40h-276c-91 0-164 74-164 165m54 550c0-61 50-110 110-110h111v110c0 60-50 111-111 111-60 0-110-51-110-111M232 480c0-61 50-110 110-110h111v220H342c-60 0-110-49-110-110m0-275c0-60 50-111 110-111h111v221H342c-60 0-110-49-110-110M507 480c0-61 50-110 111-110 60 0 110 49 110 110s-50 110-110 110c-61 0-111-49-111-110m0-165V94h111c60 0 110 51 110 111 0 61-50 110-110 110z"/>`;
+
+const FigmaBrand = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default FigmaBrand;

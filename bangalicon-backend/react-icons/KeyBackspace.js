@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M195 421q-28 29-28 59t28 59l164 164q10 10 19 14 9 3 23 3h317q27 0 45-9 19-9 28-27 9-19 9-46v-316q0-27-9-45a57.199999999999996 57.199999999999996 0 0 0-28-28Q745 240 718 240h-317q-14 0-23 4-9 3-19 13z m108-220a132 132 0 0 1 45-30A130 130 0 0 1 401 160h317q46 0 83 21t58 58T880 322v316q0 46-21 83t-58 58T718 800h-317q-28 0-53-10a148 148 0 0 1-45-31l-164-164a169.60000000000002 169.60000000000002 0 0 1-44-73 160 160 0 0 1 0-83q12-42 44-74zM468 628q-17 17-38 10a45.199999999999996 45.199999999999996 0 0 1-29-27q-7-21 11-39l240-240q17-17 38-10t28 28q8 20-10 38z m-56-240q-18-18-11-38 7-21 28-28 22-7 39 10l240 240q17 17 10 38t-28 29q-20 7-38-11z"/>`;
+
+const KeyBackspace = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default KeyBackspace;

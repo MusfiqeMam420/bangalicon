@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M177 703q-27-22-42-51A140 140 0 0 1 120 588V282q0-46 21-83t58-58T282 120h396q46 0 83 21t58 58T840 282v306q0 34-15 64-15 29-42 51l-211 158a148.8 148.8 0 0 1-92 31q-51 0-92-31z"/>`;
+
+const ShieldSolid = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ShieldSolid;

@@ -1,0 +1,31 @@
+{
+  "name": "@bangalicon/vue",
+  "version": "1.0.10",
+  "description": "Vue icon components generated from Bangalicon uploads.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "*.vue",
+    "*.js",
+    "README.md",
+    "icons.json"
+  ],
+  "keywords": [
+    "icons",
+    "vue",
+    "bangalicon",
+    "svg"
+  ],
+  "peerDependencies": {
+    "vue": ">=3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

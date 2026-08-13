@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-08-01T15:03:52.819Z",
+  "publicUrl": "https://cdn.bangalicon.com",
+  "cssUrl": "https://cdn.bangalicon.com/bangalicon.css",
+  "fontFamily": "bangalicon",
+  "icons": [
+    {
+      "name": "Add Circle Solid",
+      "slug": "add-circle-solid",
+      "type": "free",
+      "style": "solid",
+      "file": "add-circle-solid.svg",
+      "prefix": "bgs",
+      "className": "bgs bgs-add-circle-solid",
+      "unicode": "\\e900",
+      "svgUrl": "https://cdn.bangalicon.com/icons/add-circle-solid.svg",
+      "tags": [
+        "add"
+      ]
+    },
+    {
+      "name": "Cart Check",
+      "slug": "cart-check",
+      "type": "free",
+      "style": "regular",
+      "file": "cart-check.svg",
+      "prefix": "bg",
+      "className": "bg bg-cart-check",
+      "unicode": "\\e901",
+      "svgUrl": "https://cdn.bangalicon.com/icons/cart-check.svg",
+      "tags": [
+        "cart"
+      ]
+    },
+    {
+      "name": "Folder Minus",
+      "slug": "folder-minus",
+      "type": "free",
+      "style": "regular",
+      "file": "folder-minus.svg",
+      "prefix": "bg",
+      "className": "bg bg-folder-minus",
+      "unicode": "\\e902",
+      "svgUrl": "https://cdn.bangalicon.com/icons/folder-minus.svg",
+      "tags": [
+        "folder"
+      ]
+    }
+  ]
+}

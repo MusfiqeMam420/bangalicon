@@ -1,0 +1,4 @@
+<!-- Bangalicon CDN -->
+<link rel="stylesheet" href="https://cdn.bangalicon.com/bangalicon.css">
+
+<i class="bg bg-cart-check"></i>

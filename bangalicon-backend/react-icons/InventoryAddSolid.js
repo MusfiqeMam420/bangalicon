@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M280 840a164 164 0 0 1-82-21 156 156 0 0 1-57-57A164 164 0 0 1 120 680V342q0-31 14-60l40-80q20-39 55-60Q265 120 306 120h348q41 0 76 22 36 21 56 59l40 81q14 28.96 14 60V680a164 164 0 0 1-21 82 153.6 153.6 0 0 1-58 57Q725 840 680 840zM735 280l-20-42a88 88 0 0 0-17-22 52 52 0 0 0-19-12 68 68 0 0 0-25-4h-348q-15 0-26 4a64 64 0 0 0-19 12 104 104 0 0 0-16 22L225 280zM520 520v-80q0-25-20-34a42.400000000000006 42.400000000000006 0 0 0-40 0q-20 9-20 34v80H360q-25 0-35 20-9 20 0 40 10 20 35 20h80v80q0 25 20 35 20 9 40 0 20-10 20-35v-80h80q25 0 34-20a42.400000000000006 42.400000000000006 0 0 0 0-40q-9-20-34-20z"/>`;
+
+const InventoryAddSolid = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default InventoryAddSolid;

@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M360 400q17 0 28 12t11 29a32 32 0 0 1-11 27l-120 120q-11 12-28 12a36 36 0 0 1-28-12l-120-120A38.4 38.4 0 0 1 80 440q1.04-16 12-28 11-12 28-12z"/>`;
+
+const ArrowDropDown = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ArrowDropDown;

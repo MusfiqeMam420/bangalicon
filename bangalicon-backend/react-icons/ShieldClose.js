@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M177 703q-27-22-42-51A140 140 0 0 1 120 588V282q0-46 21-83t58-58T282 120h396q46 0 83 21t58 58T840 282v306q0 34-15 64-15 29-42 51l-211 158a148.8 148.8 0 0 1-92 31q-51 0-92-31z m259 94q23 17 44 17t44-17l211-158q14-11 19-22 6-12 6-29V282q0-27-9-45a57.199999999999996 57.199999999999996 0 0 0-28-28Q705 200 678 200h-396q-27 0-46 9-18 9-27 28Q200 255 200 282v306q0 17 6 29 6 11 19 22z m-18-239q-17 17-38 10a45.199999999999996 45.199999999999996 0 0 1-29-27Q344 520 362 502l180-180q18-18 38-11 21 7 28 29 7 21-10 38z m-56-180q-17-17-10-38a42 42 0 0 1 27-28q21-8 39 10l180 180q17 17 10 38t-28 29q-20 7-38-11z"/>`;
+
+const ShieldClose = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default ShieldClose;

@@ -1,0 +1,38 @@
+.bi {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  vertical-align: middle;
+}
+
+.bi-add-circle-solid {
+  -webkit-mask-image: url("/uploads/add-circle-solid.svg");
+  mask-image: url("/uploads/add-circle-solid.svg");
+}
+.bi-car-bolt {
+  -webkit-mask-image: url("/uploads/car-bolt.svg");
+  mask-image: url("/uploads/car-bolt.svg");
+}
+.bi-cart-check {
+  -webkit-mask-image: url("/uploads/cart-check.svg");
+  mask-image: url("/uploads/cart-check.svg");
+}
+.bi-check-circle-soli-fd {
+  -webkit-mask-image: url("/uploads/check-circle-soli-fd.svg");
+  mask-image: url("/uploads/check-circle-soli-fd.svg");
+}
+.bi-check-circle {
+  -webkit-mask-image: url("/uploads/check-circle.svg");
+  mask-image: url("/uploads/check-circle.svg");
+}
+.bi-folder-minus {
+  -webkit-mask-image: url("/uploads/folder-minus.svg");
+  mask-image: url("/uploads/folder-minus.svg");
+}

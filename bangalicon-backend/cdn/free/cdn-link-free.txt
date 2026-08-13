@@ -1,0 +1,4 @@
+<!-- Bangalicon CDN -->
+<link rel="stylesheet" href="http://localhost:5000/cdn/free/bangalicon-free.css">
+
+<i class="bg bg-cart-check"></i>

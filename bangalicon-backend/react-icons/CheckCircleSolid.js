@@ -1,0 +1,17 @@
+import * as React from "react";
+
+const innerMarkup = `<path d="M480 880q-108 0-200-54A404 404 0 0 1 134 680 388 388 0 0 1 80 480q0-108 54-200A393.2 393.2 0 0 1 280 134Q372 80 480 80t200 54A384 384 0 0 1 826 280Q880 372 880 480t-54 200A393.2 393.2 0 0 1 680 826Q588 880 480 880m-88-252q13 13 29 13t29-13l239-240q17-17 9-38-7-22-28-29-20-7-39 11l-210 212L328 452q-17-17-39-10-21 7-28 28-7 20 11 38z"/>`;
+
+const CheckCircleSolid = ({ size = 24, color = "currentColor", ...props }) =>
+  React.createElement("svg", {
+    width: size,
+    height: size,
+    viewBox: "0 0 1000 1000",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    style: { color },
+    dangerouslySetInnerHTML: { __html: innerMarkup },
+    ...props,
+  });
+
+export default CheckCircleSolid;
